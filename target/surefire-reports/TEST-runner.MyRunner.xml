@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.MyRunner" time="588.848" tests="4" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.MyRunner" time="775.653" tests="4" errors="2" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\lenovo\AppData\Local\Temp\surefire968111741561297173\surefirebooter1616513575112138826.jar C:\Users\lenovo\AppData\Local\Temp\surefire968111741561297173 2022-03-30T23-59-11_236-jvmRun1 surefire847015572979497250tmp surefire_08485209869101599113tmp"/>
+    <property name="sun.java.command" value="C:\Users\lenovo\AppData\Local\Temp\surefire3252487265401659084\surefirebooter6693751045488307643.jar C:\Users\lenovo\AppData\Local\Temp\surefire3252487265401659084 2022-03-31T00-47-27_196-jvmRun1 surefire3639002893417238211tmp surefire_06389786371479804838tmp"/>
     <property name="test" value="MyRunner.java"/>
     <property name="surefire.test.class.path" value="E:\Shark\com.spicejetAirlines\target\test-classes;E:\Shark\com.spicejetAirlines\target\classes;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-java\7.1.0\cucumber-java-7.1.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-core\7.1.0\cucumber-core-7.1.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-gherkin\7.1.0\cucumber-gherkin-7.1.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.1.0\cucumber-gherkin-messages-7.1.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\lenovo\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\lenovo\.m2\repository\io\cucumber\datatable\7.1.0\datatable-7.1.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-plugin\7.1.0\cucumber-plugin-7.1.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\docstring\7.1.0\docstring-7.1.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\create-meta\6.0.4\create-meta-6.0.4.jar;C:\Users\lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.0\selenium-java-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.0\selenium-api-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.0\selenium-chrome-driver-4.1.0.jar;C:\Users\lenovo\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\lenovo\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\lenovo\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.0\selenium-chromium-driver-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.0\selenium-json-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.0\selenium-devtools-v85-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.1.0\selenium-devtools-v94-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.0\selenium-devtools-v95-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.0\selenium-devtools-v96-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.0\selenium-edge-driver-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.0\selenium-firefox-driver-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.0\selenium-firefox-xpi-driver-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.0\selenium-ie-driver-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.0\selenium-opera-driver-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.0\selenium-remote-driver-4.1.0.jar;C:\Users\lenovo\.m2\repository\com\beust\jcommander\1.81\jcommander-1.81.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-buffer\4.1.69.Final\netty-buffer-4.1.69.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-codec-http\4.1.69.Final\netty-codec-http-4.1.69.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-codec\4.1.69.Final\netty-codec-4.1.69.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-handler\4.1.69.Final\netty-handler-4.1.69.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-common\4.1.69.Final\netty-common-4.1.69.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-transport-native-epoll\4.1.69.Final\netty-transport-native-epoll-4.1.69.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.69.Final\netty-transport-native-kqueue-4.1.69.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.69.Final\netty-transport-native-unix-common-4.1.69.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-transport\4.1.69.Final\netty-transport-4.1.69.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-resolver\4.1.69.Final\netty-resolver-4.1.69.Final.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-api\1.9.0\opentelemetry-api-1.9.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-context\1.9.0\opentelemetry-context-1.9.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.9.0\opentelemetry-exporter-logging-1.9.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.9.0-alpha\opentelemetry-sdk-metrics-1.9.0-alpha.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.9.0-alpha\opentelemetry-sdk-logs-1.9.0-alpha.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.9.0\opentelemetry-sdk-common-1.9.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.9.0\opentelemetry-sdk-extension-autoconfigure-spi-1.9.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.9.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.9.0-alpha.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.9.0\opentelemetry-sdk-trace-1.9.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.9.0-alpha\opentelemetry-api-metrics-1.9.0-alpha.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.9.0\opentelemetry-sdk-1.9.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.9.0-alpha\opentelemetry-semconv-1.9.0-alpha.jar;C:\Users\lenovo\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.12.1\byte-buddy-1.12.1.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\lenovo\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\lenovo\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\lenovo\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\lenovo\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\lenovo\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.0\selenium-http-4.1.0.jar;C:\Users\lenovo\.m2\repository\net\jodah\failsafe\2.4.4\failsafe-2.4.4.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.0\selenium-safari-driver-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.0\selenium-support-4.1.0.jar;C:\Users\lenovo\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\Users\lenovo\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\lenovo\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\lenovo\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\lenovo\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\Users\lenovo\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\Users\lenovo\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\Users\lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\lenovo\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\lenovo\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\lenovo\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\lenovo\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\lenovo\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\lenovo\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\Users\lenovo\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\Users\lenovo\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\lenovo\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\lenovo\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\lenovo\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\lenovo\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\lenovo\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\lenovo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\lenovo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\lenovo\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\lenovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\lenovo\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\lenovo\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-junit\7.1.0\cucumber-junit-7.1.0.jar;C:\Users\lenovo\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\lenovo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-picocontainer\7.1.0\cucumber-picocontainer-7.1.0.jar;C:\Users\lenovo\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\lenovo\AppData\Local\Temp\surefire968111741561297173\surefirebooter1616513575112138826.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\lenovo\AppData\Local\Temp\surefire3252487265401659084\surefirebooter6693751045488307643.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_321\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,41 +61,41 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Highest fare #1" classname="select highest fare" time="148.544"/>
-  <testcase name="Highest fare #2" classname="select highest fare" time="179.78">
-    <error message="Unable to locate element: (//div[text()=&apos;SpiceMAX&apos;]/following::div[2])[1]&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;&#10;System info: host: &apos;DESKTOP-Q25NASI&apos;, ip: &apos;172.20.10.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [647cdfb4-6cd1-440a-9da1-94f283e5bf88, findElement {using=xpath, value=(//div[text()=&apos;SpiceMAX&apos;]/following::div[2])[1]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:debuggerAddress: localhost:50110, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 11660, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:50110/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 647cdfb4-6cd1-440a-9da1-94f283e5bf88" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+  <testcase name="Highest fare #1" classname="select highest fare" time="140.228"/>
+  <testcase name="Highest fare #2" classname="select highest fare" time="164.352">
+    <error message="Unable to locate element: (//div[text()=&apos;SpiceMAX&apos;]/following::div[2])[1]&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;&#10;System info: host: &apos;DESKTOP-Q25NASI&apos;, ip: &apos;172.20.10.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [5a1056a5-5421-4062-9262-34f584f80181, findElement {using=xpath, value=(//div[text()=&apos;SpiceMAX&apos;]/following::div[2])[1]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:debuggerAddress: localhost:58107, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 8164, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:58107/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 5a1056a5-5421-4062-9262-34f584f80181" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
 Unable to locate element: (//div[text()='SpiceMAX']/following::div[2])[1]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.0', revision: '87802e897b'
 System info: host: 'DESKTOP-Q25NASI', ip: '172.20.10.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [647cdfb4-6cd1-440a-9da1-94f283e5bf88, findElement {using=xpath, value=(//div[text()='SpiceMAX']/following::div[2])[1]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:debuggerAddress: localhost:50110, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 11660, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:50110/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 647cdfb4-6cd1-440a-9da1-94f283e5bf88
+Command: [5a1056a5-5421-4062-9262-34f584f80181, findElement {using=xpath, value=(//div[text()='SpiceMAX']/following::div[2])[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:debuggerAddress: localhost:58107, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 8164, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:58107/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5a1056a5-5421-4062-9262-34f584f80181
 </error>
     <system-out><![CDATA[
-Scenario Outline: Highest fare                        # src/test/resources/features/Highestfare.feature:19
-  Given open "Firefox" browser                        # gluecode.StepDef1.method1(java.lang.String)
-  And launch "https://www.spicejet.com" site          # gluecode.StepDef1.method2(java.lang.String)
+Scenario Outline: Highest fare                    # src/test/resources/features/Highestfare.feature:19
+  Given open "Firefox" browser                    # gluecode.StepDef1.method1(java.lang.String)
+  And launch "https://www.spicejet.com" site      # gluecode.StepDef1.method2(java.lang.String)
 
     From field is displayed
 
 
     To field is displayed
 
-  When search flights from "Hyderabad" to "Bangaluru" # gluecode.StepDef1.method3(java.lang.String,java.lang.String)
-  And select 2023 , "January" , 2                     # gluecode.StepDef1.method5(java.lang.Integer,java.lang.String,java.lang.Integer)
-  And select 2023 , "February" and 24                 # gluecode.StepDef1.method6(java.lang.Integer,java.lang.String,java.lang.Integer)
-  And click on search flights                         # gluecode.StepDef1.method7()
-  Then flights table should be displayed              # gluecode.StepDef1.method8()
+  When search flights from "Delhi" to "Bangaluru" # gluecode.StepDef1.method3(java.lang.String,java.lang.String)
+  And select 2023 , "January" , 2                 # gluecode.StepDef1.method5(java.lang.Integer,java.lang.String,java.lang.Integer)
+  And select 2023 , "February" and 24             # gluecode.StepDef1.method6(java.lang.Integer,java.lang.String,java.lang.Integer)
+  And click on search flights                     # gluecode.StepDef1.method7()
+  Then flights table should be displayed          # gluecode.StepDef1.method8()
       org.openqa.selenium.NoSuchElementException: Unable to locate element: (//div[text()='SpiceMAX']/following::div[2])[1]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.0', revision: '87802e897b'
 System info: host: 'DESKTOP-Q25NASI', ip: '172.20.10.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [647cdfb4-6cd1-440a-9da1-94f283e5bf88, findElement {using=xpath, value=(//div[text()='SpiceMAX']/following::div[2])[1]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:debuggerAddress: localhost:50110, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 11660, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:50110/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 647cdfb4-6cd1-440a-9da1-94f283e5bf88
+Command: [5a1056a5-5421-4062-9262-34f584f80181, findElement {using=xpath, value=(//div[text()='SpiceMAX']/following::div[2])[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:debuggerAddress: localhost:58107, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 8164, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:58107/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5a1056a5-5421-4062-9262-34f584f80181
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -118,75 +118,65 @@ Session ID: 647cdfb4-6cd1-440a-9da1-94f283e5bf88
 	at gluecode.StepDef1.method8(StepDef1.java:96)
 	at âœ½.flights table should be displayed(file:///E:/Shark/com.spicejetAirlines/src/test/resources/features/Highestfare.feature:10)
 
-  And select highest fare flight for Departure        # gluecode.StepDef3.method11()
-  And select highest fare flight for Return           # gluecode.StepDef3.method12()
-  And click continue                                  # gluecode.StepDef3.method13()
-  When close site                                     # gluecode.StepDef1.method9()
+  And select highest fare flight for Departure    # gluecode.StepDef3.method11()
+  And select highest fare flight for Return       # gluecode.StepDef3.method12()
+  And click continue                              # gluecode.StepDef3.method13()
+  When close site                                 # gluecode.StepDef1.method9()
 ]]></system-out>
-    <system-err><![CDATA[1648665110484	geckodriver	INFO	Listening on 127.0.0.1:53438
-1648665111036	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50110" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofilest9pnR"
-1648665112987	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofilest9pnR\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:50110/devtools/browser/3f117c45-bfe4-4f9b-b1d3-31620eead561
-1648665121641	Marionette	INFO	Listening on port 56898
-1648665121712	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Mar 31, 2022 12:02:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[1648667994559	geckodriver	INFO	Listening on 127.0.0.1:58244
+1648667994980	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58107" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile9ltKEA"
+1648667996932	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile9ltKEA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58107/devtools/browser/9c65e863-40f3-400d-b47f-733b3044c3c5
+1648668007854	Marionette	INFO	Listening on port 57895
+1648668008103	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Mar 31, 2022 12:50:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-JavaScript error: , line 0: uncaught exception: undefined
 JavaScript warning: https://assets.adobedtm.com/537dbdb6fad9/0ee804a032d6/launch-128555ff1d51.min.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript error: https://www.spicejet.com/public/main17a996e71c2d13441b05.chunk.js, line 1: SyntaxError: JSON.parse: unexpected non-digit at line 1 column 2 of the JSON data
-1648665241978	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+1648668092273	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
 TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
 TimedPromise@chrome://remote/content/marionette/sync.js:220:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
 webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
-1648665260700	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+1648668115468	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
 TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
 TimedPromise@chrome://remote/content/marionette/sync.js:220:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
 webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
-1648665269026	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+1648668130626	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
 TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
 TimedPromise@chrome://remote/content/marionette/sync.js:220:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
 webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
 ]]></system-err>
   </testcase>
-  <testcase name="Lowest fare #1" classname="select lowest fare" time="142.374"/>
-  <testcase name="Lowest fare #2" classname="select lowest fare" time="110.588">
-    <error message="Unable to locate element: (//div[text()=&apos;SpiceMAX&apos;]/following::div[2])[1]&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;&#10;System info: host: &apos;DESKTOP-Q25NASI&apos;, ip: &apos;172.20.10.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [67ca3120-b1e4-44bc-9cb3-57b596c62de1, findElement {using=xpath, value=(//div[text()=&apos;SpiceMAX&apos;]/following::div[2])[1]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:debuggerAddress: localhost:55971, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 10284, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:55971/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 67ca3120-b1e4-44bc-9cb3-57b596c62de1" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: (//div[text()='SpiceMAX']/following::div[2])[1]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+  <testcase name="Lowest fare #1" classname="select lowest fare" time="187.814"/>
+  <testcase name="Lowest fare #2" classname="select lowest fare" time="276.889">
+    <error message="Failed to decode response from marionette&#10;Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;&#10;System info: host: &apos;DESKTOP-Q25NASI&apos;, ip: &apos;172.20.10.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [c2799d15-da1f-40e4-962e-c254f230a995, findElement {using=xpath, value=//div[text()=&apos;To&apos;]/following::input[1]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:debuggerAddress: localhost:54674, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 12580, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:54674/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: c2799d15-da1f-40e4-962e-c254f230a995" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Failed to decode response from marionette
 Build info: version: '4.1.0', revision: '87802e897b'
 System info: host: 'DESKTOP-Q25NASI', ip: '172.20.10.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [67ca3120-b1e4-44bc-9cb3-57b596c62de1, findElement {using=xpath, value=(//div[text()='SpiceMAX']/following::div[2])[1]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:debuggerAddress: localhost:55971, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 10284, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:55971/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 67ca3120-b1e4-44bc-9cb3-57b596c62de1
+Command: [c2799d15-da1f-40e4-962e-c254f230a995, findElement {using=xpath, value=//div[text()='To']/following::input[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:debuggerAddress: localhost:54674, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 12580, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:54674/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c2799d15-da1f-40e4-962e-c254f230a995
 </error>
     <system-out><![CDATA[
-Scenario Outline: Lowest fare                         # src/test/resources/features/Lowestfare.feature:19
-  Given open "Firefox" browser                        # gluecode.StepDef1.method1(java.lang.String)
-  And launch "https://www.spicejet.com" site          # gluecode.StepDef1.method2(java.lang.String)
+Scenario Outline: Lowest fare                     # src/test/resources/features/Lowestfare.feature:19
+  Given open "Firefox" browser                    # gluecode.StepDef1.method1(java.lang.String)
+  And launch "https://www.spicejet.com" site      # gluecode.StepDef1.method2(java.lang.String)
 
     From field is displayed
 
-
-    To field is displayed
-
-  When search flights from "Hyderabad" to "Bangaluru" # gluecode.StepDef1.method3(java.lang.String,java.lang.String)
-  And select 2023 , "January" , 2                     # gluecode.StepDef1.method5(java.lang.Integer,java.lang.String,java.lang.Integer)
-  And select 2023 , "February" and 24                 # gluecode.StepDef1.method6(java.lang.Integer,java.lang.String,java.lang.Integer)
-  And click on search flights                         # gluecode.StepDef1.method7()
-  Then flights table should be displayed              # gluecode.StepDef1.method8()
-      org.openqa.selenium.NoSuchElementException: Unable to locate element: (//div[text()='SpiceMAX']/following::div[2])[1]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+  When search flights from "Delhi" to "Bangaluru" # gluecode.StepDef1.method3(java.lang.String,java.lang.String)
+      org.openqa.selenium.WebDriverException: Failed to decode response from marionette
 Build info: version: '4.1.0', revision: '87802e897b'
 System info: host: 'DESKTOP-Q25NASI', ip: '172.20.10.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [67ca3120-b1e4-44bc-9cb3-57b596c62de1, findElement {using=xpath, value=(//div[text()='SpiceMAX']/following::div[2])[1]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:debuggerAddress: localhost:55971, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 10284, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:55971/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 67ca3120-b1e4-44bc-9cb3-57b596c62de1
+Command: [c2799d15-da1f-40e4-962e-c254f230a995, findElement {using=xpath, value=//div[text()='To']/following::input[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:debuggerAddress: localhost:54674, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 12580, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:54674/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c2799d15-da1f-40e4-962e-c254f230a995
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -205,36 +195,38 @@ Session ID: 67ca3120-b1e4-44bc-9cb3-57b596c62de1
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 	at com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)
-	at pages.FlightsPage.isDepartureFlightsTableDisplayed(FlightsPage.java:29)
-	at gluecode.StepDef1.method8(StepDef1.java:96)
-	at âœ½.flights table should be displayed(file:///E:/Shark/com.spicejetAirlines/src/test/resources/features/Lowestfare.feature:10)
+	at pages.HomePage.isToFieldDisplayed(HomePage.java:40)
+	at gluecode.StepDef1.method3(StepDef1.java:57)
+	at âœ½.search flights from "Delhi" to "Bangaluru"(file:///E:/Shark/com.spicejetAirlines/src/test/resources/features/Lowestfare.feature:6)
 
-  And select lowest fare flight for Departure         # gluecode.StepDef2.method9()
-  And select lowest fare flight for Return            # gluecode.StepDef2.method10()
-  And click continue                                  # gluecode.StepDef3.method13()
-  When close site                                     # gluecode.StepDef1.method9()
+  And select 2023 , "January" , 2                 # gluecode.StepDef1.method5(java.lang.Integer,java.lang.String,java.lang.Integer)
+  And select 2023 , "February" and 24             # gluecode.StepDef1.method6(java.lang.Integer,java.lang.String,java.lang.Integer)
+  And click on search flights                     # gluecode.StepDef1.method7()
+  Then flights table should be displayed          # gluecode.StepDef1.method8()
+  And select lowest fare flight for Departure     # gluecode.StepDef2.method9()
+  And select lowest fare flight for Return        # gluecode.StepDef2.method10()
+  And click continue                              # gluecode.StepDef3.method13()
+  When close site                                 # gluecode.StepDef1.method9()
 ]]></system-out>
-    <system-err><![CDATA[1648665435630	geckodriver	INFO	Listening on 127.0.0.1:60192
-1648665436147	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55971" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofilehFbAhM"
-1648665437702	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofilehFbAhM\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:55971/devtools/browser/0c55e002-ff9c-4b3a-acda-540fb7b5072e
-1648665446347	Marionette	INFO	Listening on port 57172
-1648665446868	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Mar 31, 2022 12:07:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[1648668347586	geckodriver	INFO	Listening on 127.0.0.1:62131
+1648668347862	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54674" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileLlyYN8"
+1648668350125	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileLlyYN8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54674/devtools/browser/d9cf5c85-0c18-463a-b2ac-a1fd35ddcd0a
+1648668362717	Marionette	INFO	Listening on port 58132
+1648668363167	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Mar 31, 2022 12:56:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 JavaScript warning: https://assets.adobedtm.com/537dbdb6fad9/0ee804a032d6/launch-128555ff1d51.min.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript error: https://www.spicejet.com/public/main17a996e71c2d13441b05.chunk.js, line 1: SyntaxError: JSON.parse: unexpected non-digit at line 1 column 2 of the JSON data
-1648665502787	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
-TimedPromise@chrome://remote/content/marionette/sync.js:220:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
-1648665521645	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
-TimedPromise@chrome://remote/content/marionette/sync.js:220:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"SessionStore: flushing all windows","state":{"total":1,"current":0},"filename":"resource:///modules/sessionstore/SessionStore.jsm","lineNumber":2057,"stack":["resource:///modules/sessionstore/SessionStore.jsm:ssi_onQuitApplicationGranted:2057","resource:///modules/sessionstore/SessionStore.jsm:ssi_observe:976"]}] Barrier: quit-application-granted
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContentPermissionRequest::Msg___delete__) Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2069: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1648668605409	Marionette	INFO	Stopped listening on port 58132
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
 ]]></system-err>
   </testcase>
 </testsuite>

@@ -44,8 +44,7 @@ public class DivCalendarUtilityClass
 					else
 					{
 						//Click on next to get month blocks into visible
-						driver.findElement(By.xpath(
-				"(//div[@data-testid='undefined-calendar-picker']//*[name()='svg'])[1]")).click();
+						driver.findElement(By.xpath("(//div[@data-testid='undefined-calendar-picker']//*[name()='svg'])[1]")).click();
 						Thread.sleep(2000);
 					}
 				}

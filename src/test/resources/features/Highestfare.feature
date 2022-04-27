@@ -16,4 +16,4 @@ Feature: select highest fare
     Examples: 
       | bn      | From      | To        | Departure year | Departure month | Departure day | Return year | Return month | Return day |
       | Chrome  | Bengaluru | Delhi     |           2022 | May             |            12 |        2022 | July         |         12 |
-      | Firefox | Delhi     | Bangaluru |           2023 | January         |             2 |        2023 | February     |         24 |
+      | Firefox | Delhi     | Bengaluru |           2023 | January         |             2 |        2023 | February     |         24 |

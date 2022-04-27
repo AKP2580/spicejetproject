@@ -4,6 +4,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
 
 import utilities.DivCalendarUtilityClass;
 
@@ -46,29 +48,28 @@ public class HomePage
 			return(false);
 		}
 	}
-	public void fillFrom(String x) throws Exception
+	public void fillFrom(String x,FluentWait<RemoteWebDriver> w) throws Exception
 	{
-		from.sendKeys(x);
-		Thread.sleep(5000);
+		w.until(ExpectedConditions.visibilityOf(from)).sendKeys(x);
+		
 	}
-	public void fillTo(String x) throws Exception
+	public void fillTo(String x,FluentWait<RemoteWebDriver> w) throws Exception
 	{
-		to.clear();
-		to.sendKeys(x);
-		Thread.sleep(5000);
+		w.until(ExpectedConditions.visibilityOf(to)).clear();
+		w.until(ExpectedConditions.visibilityOf(to)).sendKeys(x);
+		
 	}
 	
-	public void clickOnReturnCalendar() throws Exception
+	public void clickOnReturnCalendar(FluentWait<RemoteWebDriver> w) throws Exception
 	{
-		openReturnCalender.click();
-		Thread.sleep(2000);
+		w.until(ExpectedConditions.elementToBeClickable(openReturnCalender)).click();
+		
 	}
 	
 	public void selectDate(RemoteWebDriver driver, int year, String month, int day) throws Exception
 	{
 		DivCalendarUtilityClass obj=new DivCalendarUtilityClass();
 		obj.selectDate(driver,calendar, year, month, day);
-		Thread.sleep(3000);
 	}
 	
 	public void clickSearchFlight() throws Exception

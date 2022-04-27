@@ -1,25 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runner.MyRunner
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 775.653 s <<< FAILURE! - in runner.MyRunner
-Highest fare #2(select highest fare)  Time elapsed: 164.352 s  <<< ERROR!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: (//div[text()='SpiceMAX']/following::div[2])[1]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.0', revision: '87802e897b'
-System info: host: 'DESKTOP-Q25NASI', ip: '172.20.10.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [5a1056a5-5421-4062-9262-34f584f80181, findElement {using=xpath, value=(//div[text()='SpiceMAX']/following::div[2])[1]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:debuggerAddress: localhost:58107, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 8164, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:58107/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5a1056a5-5421-4062-9262-34f584f80181
-
-Lowest fare #2(select lowest fare)  Time elapsed: 276.889 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Failed to decode response from marionette
-Build info: version: '4.1.0', revision: '87802e897b'
-System info: host: 'DESKTOP-Q25NASI', ip: '172.20.10.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [c2799d15-da1f-40e4-962e-c254f230a995, findElement {using=xpath, value=//div[text()='To']/following::input[1]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:debuggerAddress: localhost:54674, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 12580, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:54674/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c2799d15-da1f-40e4-962e-c254f230a995
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 476.18 s - in runner.MyRunner

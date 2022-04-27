@@ -16,7 +16,6 @@ public class StepDef3
 	{
 		sh.s.log("No of Departure flights" +sh.obj2.getNoOfDepartureFlights());
 		sh.obj2.clickHighestFareFlightForDeparture(sh.driver);
-		Thread.sleep(10000);
 	}
 	
 	@Then("select highest fare flight for Return")
@@ -24,12 +23,11 @@ public class StepDef3
 	{
 		sh.s.log("No of Return flights" +sh.obj2.getNoOfReturnFlights());
 		sh.obj2.clickHighestFareFlightForReturn(sh.driver);
-		Thread.sleep(10000);
 	}
 	
 	@Then("click continue")
 	public void method13() throws Exception
 	{
-		sh.obj2.clickContinue();
+		sh.obj2.clickContinue(sh.w);
 	}
 }

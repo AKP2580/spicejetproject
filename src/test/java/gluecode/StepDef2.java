@@ -16,7 +16,6 @@ public class StepDef2
 	{
 		sh.s.log("No of Departure flights" +sh.obj2.getNoOfDepartureFlights());
 		sh.obj2.clickLowestFareFlightForDeparture(sh.driver);
-		Thread.sleep(5000);
 	}
 	
 	@Then("select lowest fare flight for Return")
@@ -24,6 +23,5 @@ public class StepDef2
 	{
 		sh.s.log("No of Return flights" +sh.obj2.getNoOfReturnFlights());
 		sh.obj2.clickLowestFareFlightForReturn(sh.driver);
-		Thread.sleep(5000);
 	}
 }

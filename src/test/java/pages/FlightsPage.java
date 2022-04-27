@@ -7,7 +7,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-    
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+
 import utilities.DivTableUtilityClass;
 
 public class FlightsPage 
@@ -164,10 +166,9 @@ public class FlightsPage
 			System.out.println(Ifare);
 		}
 		
-		public void clickContinue() throws Exception
+		public void clickContinue(FluentWait<RemoteWebDriver> w) throws Exception
 		{
-			clickcontinue.click();
-			Thread.sleep(10000);
+			w.until(ExpectedConditions.elementToBeClickable(clickcontinue)).click();
 		}
 		
 }

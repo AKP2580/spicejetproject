@@ -1,8 +1,6 @@
 package gluecode;
 
 import org.openqa.selenium.OutputType;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.FluentWait;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

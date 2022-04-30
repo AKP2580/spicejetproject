@@ -1,4 +1,39 @@
 -------------------------------------------------------------------------------
 Test set: runner.MyRunner
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 476.18 s - in runner.MyRunner
+Tests run: 4, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 114.731 s <<< FAILURE! - in runner.MyRunner
+Highest fare #1(select highest fare)  Time elapsed: 28.489 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='From']/following::input[1]"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'LAPTOP-V59JQD1H', ip: '192.168.0.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [38320b0d9adc1ccb5eae85cc531bd29a, findElement {using=xpath, value=//div[text()='From']/following::input[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\windows\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:60635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60635/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 38320b0d9adc1ccb5eae85cc531bd29a
+
+Highest fare #2(select highest fare)  Time elapsed: 28.707 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[contains(@data-testid,'undefined-month')]/ancestor::div[2]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'LAPTOP-V59JQD1H', ip: '192.168.0.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [efce1f06-74fb-47b8-a51b-d22d740336e0, findElement {using=xpath, value=//div[contains(@data-testid,'undefined-month')]/ancestor::div[2]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:debuggerAddress: localhost:53079, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 28820, moz:profile: C:\windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:53079/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: efce1f06-74fb-47b8-a51b-d22d740336e0
+
+Lowest fare #1(select lowest fare)  Time elapsed: 9.413 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='From']/following::input[1]"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'LAPTOP-V59JQD1H', ip: '192.168.0.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [067269b779b0d2426a5fbd96fc7c164c, findElement {using=xpath, value=//div[text()='From']/following::input[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:60804}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60804/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 067269b779b0d2426a5fbd96fc7c164c
+
